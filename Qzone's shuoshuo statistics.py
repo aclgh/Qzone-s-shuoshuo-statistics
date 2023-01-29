@@ -3,7 +3,6 @@ import json
 import datetime
 from collections import defaultdict
 import matplotlib.pyplot as plt
-import numpy as np
 
 os.remove("timestamp_to_date.txt")
 # 遍历文件夹中的所有json文件
