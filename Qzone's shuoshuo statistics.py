@@ -57,7 +57,7 @@ plt.xticks(rotation=45)
 plt.bar(x, y)
 plt.xlabel("year")
 plt.ylabel("Times of shuoshuo")
-plt.title(f"Shoushou of Qzone ——sum:{Sum}")
+plt.title(f"Shuoshuo of Qzone ——sum:{Sum}")
 for i, v in enumerate(y):
     plt.text(i, v + 0.5, str(v), ha='center')
 plt.show()
