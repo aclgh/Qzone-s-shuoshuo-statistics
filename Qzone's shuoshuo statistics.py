@@ -3,7 +3,8 @@ import json
 import datetime
 from collections import defaultdict
 import matplotlib.pyplot as plt
-
+file = open("timestamp_to_date.txt", "w")
+file.close()
 os.remove("timestamp_to_date.txt")
 # 遍历文件夹中的所有json文件
 for file_name in os.listdir("shuoshuo"):
